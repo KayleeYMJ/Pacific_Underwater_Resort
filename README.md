@@ -3,7 +3,7 @@
 ## Functions: 
  Booking diving suits, diving trainings, dinner, transports and rooms. 
  Showing map and history of this resort.
- Also including some basic functions like login and chat.
+ Also including some basic functions like login, sign up and chat.
 ## How to build up: 
  clone or download the whole project and open index.html in any browsers such as Chrome or any development tools like Visual Studio Code.
 ## Techniques:
