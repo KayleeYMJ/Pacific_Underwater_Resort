@@ -1,0 +1,72 @@
+/* main */
+
+main {
+    background-color: rgb(146, 199, 241, 0.7);
+    line-height: 2vw;
+    margin-top: 1.5vw;
+    width: 70%;
+    height: 70%;
+    color: black;
+    border-radius: 1vw;
+    margin-left: 4vw;
+}
+
+aside {
+    width: 270%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+}
+
+
+/* text */
+
+main>section>article {
+    width: 80%;
+    height: 20%;
+    margin-left: 7vw;
+}
+
+main>section>h1 {
+    font-size: 3vw;
+    color: aliceblue;
+    margin-left: 11vw;
+}
+
+main>section>article>h2 {
+    font-style: italic;
+    font-size: 2vw;
+    margin-top: 4vw;
+}
+
+main>section>article>p {
+    font-size: 1.5vw;
+}
+
+#bottom-text {
+    margin-top: 10vw;
+}
+
+#middle-text {
+    margin-top: -2vw;
+}
+
+
+/* img */
+
+main>aside>img {
+    width: 100%;
+    height: 20vw;
+    margin: 2vw;
+    border-radius: 1vw;
+    border: 0.3vw solid white;
+}
+
+
+/* nav */
+
+div>ul {
+    margin-top: 8vw;
+}

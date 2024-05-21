@@ -1,0 +1,80 @@
+/* log in */
+
+div>input {
+    width: 70%;
+    height: 2vw;
+    text-align: left;
+    font-size: 1.5vw;
+    font-family: monospace;
+    margin-left: -1vw;
+    padding-left: 1vw;
+}
+
+div>button:hover {
+    background-color: rgb(86, 133, 233);
+}
+
+div>button {
+    width: 7vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 1vw;
+}
+
+div>input:hover {
+    background-color: rgb(128, 159, 228);
+}
+
+div>h1 {
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+
+.Log-in {
+    text-align: left;
+    float: left;
+    margin-left: 15vw;
+    margin-top: 6vw;
+}
+
+.Log-in>button {
+    margin-top: 1vw;
+}
+
+
+/* sign up */
+
+.Sign-up {
+    text-align: left;
+    float: left;
+    margin-left: 15vw;
+    margin-top: 3vw;
+}
+
+.Sign-up button {
+    width: 13vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+/* sign up */
+
+div>ul {
+    margin-top: 8.3vw;
+}
+
+footer {
+    margin-top: 50vw;
+}
+
+footer>div {
+    margin-top: -7.5vw;
+}
+
+footer>a>img {
+    margin-top: -8.5vw;
+}

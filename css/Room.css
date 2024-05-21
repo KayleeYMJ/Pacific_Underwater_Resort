@@ -1,0 +1,113 @@
+/* subtitle */
+
+#select {
+    font-size: 2.5vw;
+    margin-left: 10vw;
+    margin-top: -2vw;
+}
+
+
+/* room img */
+
+section>div>img {
+    width: 15%;
+    height: 15%;
+    margin-top: 3vw;
+    border: 0.3vw solid white;
+    border-radius: 2vw;
+    margin-left: 1vw;
+}
+
+.first-image {
+    margin-left: -7vw;
+}
+
+section>div {
+    width: 70%;
+    height: 55%;
+    margin-left: 20vw;
+}
+
+
+/* room text */
+
+section>article {
+    margin-top: 5vw;
+    width: 70%;
+    height: 120%;
+    margin-left: 5vw;
+    background-color: rgb(146, 199, 241, 0.7);
+    color: black;
+    border: 0.2vw solid rgb(255, 255, 255);
+    border-style: dashed;
+}
+
+section>h1 {
+    margin-left: 25vw;
+    font-size: 2.2vw;
+    padding-top: 2vw;
+}
+
+section>article>h2 {
+    margin-left: 25vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+}
+
+section>article>h3 {
+    padding-left: 1.5vw;
+    font-size: 1.5vw;
+    color: rgb(175, 37, 164);
+}
+
+.feature {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding-left: 1.5vw;
+    margin-top: -0.5vw;
+    line-height: 3vw;
+    color: rgb(175, 37, 164);
+}
+
+.introduction {
+    font-size: 1.5vw;
+    line-height: 2.4vw;
+    margin-top: -31vw;
+    padding-left: 3vw;
+    margin-left: 17vw;
+    margin-right: 2vw;
+    border: 0.2vw solid rgb(255, 255, 255);
+    padding-right: 2vw;
+}
+
+
+/* input */
+
+section>h1>input {
+    width: 2vw;
+    height: 2vw;
+    margin-left: 2vw;
+}
+
+
+/* button */
+
+button {
+    position: fixed;
+    right: 1vw;
+    margin-top: 20vw;
+    width: 17vw;
+    height: 3vw;
+    font-size: 1.2vw;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+
+/* nav */
+
+div>ul {
+    margin-top: 8.3vw;
+}

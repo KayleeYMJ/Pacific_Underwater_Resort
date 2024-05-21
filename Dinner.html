@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Underwater Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dinner.css">
+</head>
+
+<body>
+    <!-- top -->
+    <p onmouseover="mOver(this)" onmouseout="mOut(this)">Welcome to Pacific Underwater Resort !</p>
+    <form action="#" method="post">
+        <p id="time"></p>
+        <input type="search" name="condition" placeholder="search">
+        <a href="Log-In.html" class="links">Log In</a>
+    </form>
+    <!-- navigation -->
+    <div>
+        <ul>
+            <li><a href="index.html" class="links">Home &#9776; </a></li>
+            <li id='a'><span onclick="openNav()">Navigation &#9776;</span></li>
+        </ul>
+    </div>
+    <ul id='nav'>
+        <li><a href="javascript:void(0)" onclick="closeNav()" class="links">&times;</a></li>
+        <li><a href="Suit.html" class="links ">Diving suit</a></li>
+        <li><a href="Training.html" class="links ">Diving training</a></li>
+        <li><a href="Dinner.html" class="links ">Dinner</a></li>
+        <li><a href="Room.html" class="links">Room</a></li>
+        <li><a href="Transport.html" class="links">Transport</a></li>
+        <li><a href="Map.html" class="links ">Map of resort</a></li>
+        <li><a href="History.html" class="links ">History</a></li>
+    </ul>
+    <!-- audio -->
+    <audio controls autoplay>
+        <source src="images&files/dinner.mp3">
+    </audio>
+    <!-- button -->
+    <button id="booking">Booking Now</button>
+    <!-- dinner -->
+    <section>
+        <img src="images&files/hot-pot1.jpeg" alt="hot pot and sauces">
+        <img src="images&files/hot-pot2.jpeg" alt="lamb Kebab Roll">
+        <img src="images&files/hot-pot3.jpeg" alt="pieces of bovine third stomach">
+        <img src="images&files/hot-pot4.jpeg" alt="hot pot">
+        <h1>Hot Pot</h1>
+        <table>
+            <tr>
+                <th>Select</th>
+                <th>Set meal</th>
+                <th>Content</th>
+                <th>Soup Base</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal A</td>
+                <td>Lamb Slices/ Corn/ Fish ball</td>
+                <td>Tomato Soup Base</td>
+                <td>$59.9</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal B</td>
+                <td>Lamb Slices/ Sichuan Spicy Beef/<br>Prawns/ Bamboo Fungus/ Duck Blood</td>
+                <td>Mushroom Soup Base</td>
+                <td>$89.9</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal C</td>
+                <td>Lamb Slices/ Fresh Tofu</td>
+                <td>Spicy Soup Base</td>
+                <td>$29.9</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+    <section>
+        <img src="images&files/sushi1.jpeg" alt="sushi A">
+        <img src="images&files/sushi2.jpeg" alt="sushi B">
+        <img src="images&files/sushi3.jpeg" alt="sushi C">
+        <img src="images&files/sushi4.jpeg" alt="sushi D">
+        <h1 class="name">Sushi</h1>
+        <table>
+            <tr>
+                <th>Select</th>
+                <th>Set meal</th>
+                <th>Content</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal A</td>
+                <td>Fresh Salmon Cucumber Roll/ Avocado Roll</td>
+                <td>$29.9</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal B</td>
+                <td>Prawn Katsu Avocado Roll/ Tuna Salad Cucumber Roll</td>
+                <td>$39.9</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Set meal C</td>
+                <td>Lobster Salad Avocado Roll</td>
+                <td>$19.9</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+    <section>
+        <img src="images&files/steak1.jpeg" alt="steak A">
+        <img src="images&files/steak2.jpeg" alt="steak B">
+        <img src="images&files/steak3.jpeg" alt="steak C">
+        <img src="images&files/steak4.jpeg" alt="steak D">
+        <h1 class="name">Steak</h1>
+        <table>
+            <tr>
+                <th>Select</th>
+                <th>Set meal</th>
+                <th>Weight and Price</th>
+                <th>Weight and Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>EYE FILLET</td>
+                <td>160G $39</td>
+                <td>250G $49</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>CÔTE DE BOEUF</td>
+                <td>500G $60</td>
+                <td>700G $85</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>RIBEYE</td>
+                <td>220G $45</td>
+                <td>110G $35</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <script src="js/dinner.js"></script>
+    <!--footer-->
+    <footer>
+        <p>Address: Pacific Underwater Resort Australia, 66 Allowah Street, Waratah West, NSW 3404</p>
+        <p>Email: <a href="mailto:pacific-underwater-resort@163.com ">PacificUnderwaterResort@163.com</a></p>
+        <p>Phone Number:13458367</P>
+        <a href="reference.html " id='Reference' target="_blank">Reference</a>
+        <div>
+            <p>If you have any problems, please contact us.</p>
+            <p>© Copyright Pacific Underwater Resort. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+        <a href="Chating.html "><img src="images&files/Chat.png" alt='Chating'></a>
+        <br><a href="Suit.html " class="links "> Diving suit |</a>
+        <a href="Training.html " class="links "> Diving training |</a>
+        <a href="Dinner.html " class="links "> Dinner |</a>
+        <a href="Room.html " class="links "> Room |</a>
+        <a href="Transport.html " class="links "> Transport |</a>
+        <a href="Map.html " class="links "> Map of resort |</a>
+        <a href="History.html " class="links "> History</a>
+    </footer>
+</body>
+
+</html>

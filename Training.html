@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Underwater Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/training.css">
+</head>
+
+<body>
+    <!-- top -->
+    <p onmouseover="mOver(this)" onmouseout="mOut(this)">Welcome to Pacific Underwater Resort !</p>
+    <form action="#" method="post">
+        <p id="time"></p>
+        <input type="search" name="condition" placeholder="search">
+        <a href="Log-In.html" class="links">Log In</a>
+    </form>
+    <!-- navigation -->
+    <div>
+        <ul>
+            <li><a href="index.html" class="links">Home &#9776; </a></li>
+            <li id='a'><span onclick="openNav()">Navigation &#9776;</span></li>
+        </ul>
+    </div>
+    <ul id='nav'>
+        <li><a href="javascript:void(0)" onclick="closeNav()" class="links">&times;</a></li>
+        <li><a href="Suit.html" class="links">Diving suit</a></li>
+        <li><a href="Training.html" class="links">Diving training</a></li>
+        <li><a href="Dinner.html" class="links">Dinner</a></li>
+        <li><a href="Room.html" class="links">Room</a></li>
+        <li><a href="Transport.html " class="links">Transport</a></li>
+        <li><a href="Map.html" class="links">Map of resort</a></li>
+        <li><a href="History.html" class="links">History</a></li>
+    </ul>
+    <!-- training -->
+    <section id="top" onmouseover="trainer('first')">
+        <h1>ScubaFlex</h1>
+        <P>
+            A seven week group for scuba divers to learn stuff that can help us stay fit-to-dive in lots of different ways through improving psychological flexibility. Whether you want skills to help you get off the sofa and go for a run, or strategies for dealing
+            with the intrusive "what if ...." thoughts, learning psychological flexibility skills will help you.
+        </p>
+        <p> It's a dry group and your participation is separate from your own diving activities. There is no dive training and no in-water practice at all, and it's suitable for all levels and qualifications.
+        </P>
+        <div id="first" class="content">
+            <img src="images&files/trainer1.webp" alt="first trainer">
+            <h1>Dr Laura Walton</h1>
+            <p>
+                Diving since 2007, Laura is an active scuba diver and instructor with range of experience from low visibility, cold water dives to tropical locations and the various challenges different sites offer. Her perspective in training is influenced by 20 years
+                of studying psychology &amp; 7 years as a diving professional.
+            </p>
+        </div>
+    </section>
+    <section onmouseover="trainer('second')">
+        <h1>Discover Scuba Diving</h1>
+        <P>
+            If you love to snorkel and swim, but are curious about scuba diving, then the Discover Scuba Dive is not to be missed! There is nothing more exciting than your first few breaths underwater! No prior experience or training is required to experience the
+            underwater beauty of St Croix. A certified diver can even join a discover diver if they would like to dive together!
+        </P>
+        <p>
+            This half-day adventure begins at our dive shop at either 9:00 AM or 1:30 PM where you meet our Diving Instructor, go over the basics of diving, watch a short educational video, and then off to the waters to practice a few basic scuba skills! This is
+            all completed in the shallow waters of the Frederiksted Pier just steps from our dive shop.
+        </p>
+        <div id="second" class="content">
+            <img src="images&files/trainer2.jpeg" alt="second trainer">
+            <h1>Dr Simon Thomas</h1>
+            <p>
+                Alongside this he previously co-managed an active dive club and school in Scotland, and has experience of the dive industry and community. Simon holds multiple relevant qualifications including PADI IDC Staff Instructor, DDI Instructor, EFR Instructor
+                &amp; DAN Instructor.
+            </p>
+        </div>
+    </section>
+    <section onmouseover="trainer('third')">
+        <h1>Open Water Certification</h1>
+        <P>
+            Are you ready to become a certified scuba diver? Then there is no better place to start than right here in St. Croix with Nep2une Scuba Diving. PADI’s Open Water Diver course teaches you the skills necessary to become a safe and confident diver. After
+            booking your certification with us, you will receive a link to enroll in your PADI online course.
+        </p>
+        <p>
+            Once completed, you’ll need 2-3 days with a Nep2une Scuba Diving Instructor for your in-water training. This educational section consists of 5 confined water dives completed in the shallow, swimming-pool-like conditions at the Frederiksted Pier as well
+            as 4 open water dives. The first 2 open water dives are completed at the Pier and the final 2 dives are completed at a reef from our boat so you can experience a full range of diving scenarios.
+        </P>
+        <div id="third" class="content">
+            <img src="images&files/trainer3.jpeg" alt="third trainer">
+            <h1>Dr Kaylee Lin</h1>
+            <p> With her interest in diving psychology and physiology, she seeks to learn more through research and to share understanding through creation of unique courses that help divers to be physically, mentally and emotionally fit-to-dive.</p>
+        </div>
+    </section>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <script src="js/training.js"></script>
+    <!--footer-->
+    <footer>
+        <p>Address: Pacific Underwater Resort Australia, 66 Allowah Street, Waratah West, NSW 3404</p>
+        <p>Email: <a href="mailto:pacific-underwater-resort@163.com">PacificUnderwaterResort@163.com</a></p>
+        <p>Phone Number:13458367</P>
+        <a href="reference.html" id='Reference' target="_blank">Reference</a>
+        <div>
+            <p>If you have any problems, please contact us.</p>
+            <p>© Copyright Pacific Underwater Resort. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+        <a href="Chating.html"><img src="images&files/Chat.png" alt='Chating'></a>
+        <br><a href="Suit.html" class="links"> Diving suit |</a>
+        <a href="Training.html" class="links"> Diving training |</a>
+        <a href="Dinner.html" class="links"> Dinner |</a>
+        <a href="Room.html" class="links"> Room |</a>
+        <a href="Transport.html " class="links"> Transport |</a>
+        <a href="Map.html" class="links"> Map of resort |</a>
+        <a href="History.html" class="links"> History</a>
+    </footer>
+</body>
+
+</html>

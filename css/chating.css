@@ -1,0 +1,107 @@
+body {
+    color: black;
+    line-height: 3vw;
+}
+
+body>form>p {
+    color: white;
+}
+
+
+/* header */
+
+section>h1 {
+    color: white;
+    margin-left: 19vw;
+    line-height: 3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+
+/* image */
+
+section>img {
+    max-width: 15%;
+    max-height: 10%;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-name: phone;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.phones img:nth-child(1) {
+    top: 22vw;
+    left: 3vw;
+}
+
+.phones img:nth-child(2) {
+    animation-delay: 0s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    left: 26vw;
+    top: 35vw;
+}
+
+@keyframes phone {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: 80%;
+    }
+}
+
+
+/* call later */
+
+#call {
+    background-color: rgb(146, 199, 241, 0.7);
+    margin-top: 31.79vw;
+    width: 60%;
+    margin-left: 8vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+body>article {
+    font-size: 1.7vw;
+    line-height: 1.5vw;
+    float: left;
+    padding-left: 10vw;
+    width: 49.79%;
+    margin-left: 8vw;
+    margin-top: 18vw;
+    background-color: rgb(146, 199, 241, 0.7);
+}
+
+#call>input {
+    margin-right: 20vw;
+    width: 10vw;
+    height: 1.5vw;
+}
+
+#call>textarea {
+    margin-right: 20vw;
+    width: 30%;
+    height: 5vw;
+}
+
+#call>input:hover {
+    background-color: rgba(241, 131, 88, 0.7);
+}
+
+
+/* footer */
+
+footer {
+    line-height: 1.2vw;
+}
+
+
+/* nav */
+
+div>ul {
+    margin-top: 8.3vw;
+}

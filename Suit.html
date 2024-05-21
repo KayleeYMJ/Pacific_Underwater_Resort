@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Underwater Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/suit.css">
+</head>
+
+<body>
+    <!-- top -->
+    <p onmouseover="mOver(this)" onmouseout="mOut(this)">Welcome to Pacific Underwater Resort !</p>
+    <form action="#" method="post">
+        <p id="time"></p>
+        <input type="search" name="condition" placeholder="search">
+        <a href="Log-In.html" class="links">Log In</a>
+    </form>
+    <!-- navigation -->
+    <div>
+        <ul>
+            <li><a href="index.html" class="links">Home &#9776; </a></li>
+            <li id='a'><span onclick="openNav()">Navigation &#9776;</span></li>
+        </ul>
+    </div>
+    <ul id='nav'>
+        <li><a href="javascript:void(0)" onclick="closeNav()" class="links">&times;</a></li>
+        <li><a href="Suit.html" class="links">Diving suit</a></li>
+        <li><a href="Training.html" class="links">Diving training</a></li>
+        <li><a href="Dinner.html" class="links">Dinner</a></li>
+        <li><a href="Room.html" class="links">Room</a></li>
+        <li><a href="Transport.html " class="links">Transport</a></li>
+        <li><a href="Map.html" class="links">Map of resort</a></li>
+        <li><a href="History.html" class="links">History</a></li>
+    </ul>
+    <!--subtitle-->
+    <p id='subtitle'>Please select something you wanted and booking now</p>
+    <!--suit-->
+    <article>
+        <img src="images&files/suitC.jpg" alt="suit selection A">
+        <h1> $89.99(renting) <input type="checkbox"><br> $124.99(buying)<input type="checkbox"></h1>
+        <button onclick="alert('Booking Successfully! Mr.Jhon.Thank you!')"><b>Booking Now</b></button>
+        <p>Mens 3mm Long Wetsuit Womens, Full Body Diving Suit Front Zip Wetsuit for Diving Snorkeling Surfing Swimming</p>
+        <details id='suitA'>
+            <summary>more details</summary>
+            <p> Three layers of diving fabrics front zip wetsuit, the outer is imported nylon fabric, it is high elastic and durable; the middle insulation is neoprene, it is high scalability, waterproof and heat insulation; soft close skin heating to keep
+                warm,it is close skin and comfortable soft warm.
+            </p>
+        </details>
+    </article>
+    <article>
+        <img src="images&files/suitB.jpg" alt="suit selection B">
+        <h1>$65.99(renting) <input type="checkbox"> <br>$149.99(buying)<input type="checkbox"></h1>
+        <button onclick="alert(' Booking Successfully! Mr.Jhon.Thank you! ')"><b>Booking Now</b></button>
+        <p>DIVE & SAIL Wetsuit Men Women-Full Body Ultra Stretch Mens Womens Wetsuit with Back Zip-3mm Neoprene Scuba Diving Wetsuit to Keep Warm During Water Sports-SPF50+ UV Protection </p>
+        <details id='suitB'>
+            <summary>more details</summary>
+            <p>Comfortable: This Diving Suit is Made with 3mm Premium Stretchy Neoprene , Double Lined With Super Elastic Nylon To Keep you comfortable and Warm In Cold Water . "Shark Skin" On Chest And Upper Back To Enhance The Stretch And Reduce the Water
+                Resistance.
+            </p>
+        </details>
+    </article>
+    <article>
+        <img src="images&files/suitA.jpg" alt="suit selection C">
+        <h1>$59.99(renting) <input type="checkbox"><br>$119.99(buying)<input type="checkbox"></h1>
+        <button onclick="alert('Booking Successfully! Mr.Jhon.Thank you! ')"><b>Booking Now</b></button>
+        <p>Hevto Wetsuits 3mm Neoprene Full Scuba Diving Suits Surfing Swimming long Sleeve Keep Warm Back Zip for Water Sports </p>
+        <details>
+            <summary>more details</summary>
+            <p> The Guardian (Ⅰ) Warrior wetsuits are specially designed for adult men diving beginners and amateurs. It is made of 3mm neoprene + nylon elastic fabric. It is high-quality healthy, harmless, soft and comfortable, and skin friendly. Flatlock
+                stitching, the line is delicate and neat. Guardian (Ⅰ) Warrior full men wetsuits can keep you warm, help you float more easily, and help you master swimming and diving skills faster.
+            </p>
+        </details>
+    </article>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <!--footer-->
+    <footer>
+        <p>Address: Pacific Underwater Resort Australia, 66 Allowah Street, Waratah West, NSW 3404</p>
+        <p>Email: <a href="mailto:pacific-underwater-resort@163.com">PacificUnderwaterResort@163.com</a></p>
+        <p>Phone Number:13458367</P>
+        <a href="reference.html" id='Reference' target="_blank">Reference</a>
+        <div>
+            <p>If you have any problems, please contact us.</p>
+            <p>© Copyright Pacific Underwater Resort. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+        <a href="Chating.html"><img src="images&files/Chat.png" alt='Chating'></a>
+        <br><a href="Suit.html" class="links"> Diving suit |</a>
+        <a href="Training.html" class="links"> Diving training |</a>
+        <a href="Dinner.html" class="links"> Dinner |</a>
+        <a href="Room.html" class="links"> Room |</a>
+        <a href="Transport.html " class="links"> Transport |</a>
+        <a href="Map.html" class="links"> Map of resort |</a>
+        <a href="History.html" class="links"> History</a>
+    </footer>
+</body>
+
+</html>

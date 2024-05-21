@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Underwater Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Room.css">
+</head>
+
+<body>
+    <!-- top -->
+    <p onmouseover="mOver(this)" onmouseout="mOut(this)">Welcome to Pacific Underwater Resort !</p>
+    <form action="#" method="post">
+        <p id="time"></p>
+        <input type="search" name="condition" placeholder="search">
+        <a href="Log-In.html" class="links">Log In</a>
+    </form>
+    <!-- navigation -->
+    <div>
+        <ul>
+            <li><a href="index.html" class="links">Home &#9776; </a></li>
+            <li id='a'><span onclick="openNav()">Navigation &#9776;</span></li>
+        </ul>
+    </div>
+    <ul id='nav'>
+        <li><a href="javascript:void(0)" onclick="closeNav()" class="links">&times;</a></li>
+        <li><a href="Suit.html" class="links">Diving suit</a></li>
+        <li><a href="Training.html" class="links">Diving training</a></li>
+        <li><a href="Dinner.html" class="links">Dinner</a></li>
+        <li><a href="Room.html" class="links">Room</a></li>
+        <li><a href="Transport.html " class="links">Transport</a></li>
+        <li><a href="Map.html" class="links">Map of resort</a></li>
+        <li><a href="History.html" class="links">History</a></li>
+    </ul>
+    <!--subtitle-->
+    <p id="select">Please select something you wanted and booking now</p>
+    <!--button submit-->
+    <button onclick="alert('Booking Successfully! Mr.Jhon.Thank you!')"><b>Booking Now</b></button>
+    <!--Room-->
+    <section>
+        <h1>Lovely Room <input type="checkbox"></h1>
+        <div>
+            <img src="images&files/room1-1.png" alt="Room A bedroom" onmouseover="bigger(this)" onmouseout="normal(this)" class='first-image'>
+            <img src="images&files/room1-2.png" alt="Room A living room" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room1-3.png" alt="Room A bathroom" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room1-4.png" alt="Room A lounge" onmouseover="bigger(this)" onmouseout="normal(this)">
+        </div>
+        <article>
+            <h2>Price: $240/day | max 2 pepole</h2>
+            <h3>Property Features:</h3>
+            <p class='feature'>Air conditioning<br> Balcony<br>Building Security<br> Close to shops<br> Close to transport<br> District Views<br> Electric Heating<br> Intercom
+                <br> Internal Laundry<br> Water Views
+            </p>
+            <p class='introduction'>Introduction:<br><br>- Beautiful views over Hyde Park, St Mary's Cathedral, the harbour
+                <br> - High-end luxury finishes throughout, including stunning herringbone floors<br> - Spacious, open plan living and dining area with access to two balconies<br> - State-of-the-art kitchen with stone benches, Gaggenau appliances (gas
+                cooking, dishwasher, integrated fridge and additional wine fridge)<br> - Two double bedrooms (the master boasting luxurious walk-in-robe and ensuite), both with balconies<br> - Two bathrooms (one ensuite), internal laundry with washing
+                machine and dryer provided
+                <br>- Secure basement parking <br>- Facilities for the use of all residents include 24 hour concierge, temperature controlled wine cellar, conference/meeting rooms with full kitchen facilities</p>
+        </article>
+    </section>
+    <section>
+        <h1>Deluxe Room <input type="checkbox"></h1>
+        <div>
+            <img src="images&files/room2-1.png" alt="Room B living room" onmouseover="bigger(this)" onmouseout="normal(this)" class='first-image'>
+            <img src="images&files/room2-2.png" alt="Room B bathroom" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room2-3.png" alt="Room B bedroom" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room2-4.png" alt="Room B kitchen" onmouseover="bigger(this)" onmouseout="normal(this)">
+        </div>
+        <article>
+            <h2>Price: $540/day | max 4 pepole</h2>
+            <h3>Property Features:</h3>
+            <p class='feature'>Air conditioning<br> Spa<br>Swimming Pool<br>Two bedrooms<br>Built in wardrobes<br> Car Parking - Basement<br> Electric Heating<br> Intercom
+                <br> Internal Laundry<br> Security Access
+            </p>
+            <p class='introduction'>Introduction:<br><br>The Apartment - Two bedrooms, one with built in robes and master with walk in robe, two bathrooms with marble finishes, master with ensuite, internal laundry, large open plan kitchen with marble benchtop & splashback,
+                generously sized living space with room for 10 seater dining and lounge space that opens up to your north facing balcony with harbour views and right over the top of Hyde Park and CBD skyline. <br><br>The Building - The Connaught is a
+                very well known building with security access at the lobby, welcomed by a 24/7 concierge and on site security, rooftop gymnasium, pool, outdoor seating areas, spa & sauna.<br><br>The Location - You are right in the midst of local cafe's,
+                restaurants, parks, Town Hall and Central train station, local bus stop with Eastern suburbs link.</p>
+        </article>
+    </section>
+    <section>
+        <h1>Standard Room <input type="checkbox"></h1>
+        <div>
+            <img src="images&files/room3-1.png" alt="Room C study" onmouseover="bigger(this)" onmouseout="normal(this)" class='first-image'>
+            <img src="images&files/room3-2.png" alt="Room C bedroom" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room3-3.png" alt="Room C bathroom" onmouseover="bigger(this)" onmouseout="normal(this)">
+            <img src="images&files/room3-4.png" alt="Room C living room" onmouseover="bigger(this)" onmouseout="normal(this)">
+        </div>
+        <article>
+            <h2>Price: $170/day | max 2 pepole</h2>
+            <h3>Property Features:</h3>
+            <p class='feature'>Area Views<br>Balcony<br> Close to transport<br> Close to shops<br>Prestige Homes<br> Electric Heating<br>Ensuite
+                <br> Internal Laundry<br>Air conditioning<br> Water Views
+            </p>
+            <p class='introduction'>Introduction:<br>
+                <br> - Elegant and spacious living area<br> - Separate study/home office <br>- Two large balconies with stunning views<br> - Built in wardrobes<br> - Generous floor plan of 132sqm
+                <br>- 24 hour concierge, secure parking, health club and stunning library
+                <br>- World-class restaurants and entertainment at your doorstep<br><br>This north facing two bedroom plus study apartment is located in the prestigious Observatory Tower. Observatory Tower is one of Sydney's most prestigious residential
+                buildings and this stunning apartment offers a lifestyle of luxury.
+            </p>
+        </article>
+    </section>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <script src="js/room.js"></script>
+    <!--footer-->
+    <footer>
+        <p>Address: Pacific Underwater Resort Australia, 66 Allowah Street, Waratah West, NSW 3404</p>
+        <p>Email: <a href="mailto:pacific-underwater-resort@163.com">PacificUnderwaterResort@163.com</a></p>
+        <p>Phone Number:13458367</P>
+        <a href="reference.html" id='Reference' target="_blank">Reference</a>
+        <div>
+            <p>If you have any problems, please contact us.</p>
+            <p>© Copyright Pacific Underwater Resort. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+        <a href="Chating.html"><img src="images&files/Chat.png" alt='Chating'></a>
+        <br><a href="Suit.html" class="links"> Diving suit |</a>
+        <a href="Training.html" class="links"> Diving training |</a>
+        <a href="Dinner.html" class="links"> Dinner |</a>
+        <a href="Room.html" class="links"> Room |</a>
+        <a href="Transport.html " class="links"> Transport |</a>
+        <a href="Map.html" class="links"> Map of resort |</a>
+        <a href="History.html" class="links"> History</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Underwater Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/log-in.css">
+</head>
+
+<body>
+    <!-- top -->
+    <p onmouseover="mOver(this)" onmouseout="mOut(this)">Welcome to Pacific Underwater Resort !</p>
+    <form action="#" method="post">
+        <p id="time"></p>
+        <input type="search" name="condition" placeholder="search">
+        <a href="Log-In.html" class="links">Log In</a>
+    </form>
+    <!-- navigation -->
+    <div>
+        <ul>
+            <li><a href="index.html" class="links">Home &#9776; </a></li>
+            <li id='a'><span onclick="openNav()">Navigation &#9776;</span></li>
+        </ul>
+    </div>
+    <ul id='nav'>
+        <li><a href="javascript:void(0)" onclick="closeNav()" class="links">&times;</a></li>
+        <li><a href="Suit.html" class="links">Diving suit</a></li>
+        <li><a href="Training.html" class="links">Diving training</a></li>
+        <li><a href="Dinner.html" class="links">Dinner</a></li>
+        <li><a href="Room.html" class="links">Room</a></li>
+        <li><a href="Transport.html " class="links">Transport</a></li>
+        <li><a href="Map.html" class="links">Map of resort</a></li>
+        <li><a href="History.html" class="links">History</a></li>
+    </ul>
+    <!--login-->
+    <div class="Log-in">
+        <h1>Log In</h1>
+        <h2>Username</h2>
+        <input type="text" placeholder=" Username">
+        <h2>Password</h2>
+        <input type="password">
+        <br>
+        <button onclick="alert('Mr.Simon. Welcome to our resort!')">Log in</button>
+    </div>
+    <!--sign up-->
+    <div class="Sign-up">
+        <h1>Sign Up</h1>
+        <h3>If you're not have your <br>account now, please sign up</h3>
+        <h2>Username</h2>
+        <input type="text" placeholder=" Username">
+        <h2>Password</h2>
+        <input type="password">
+        <h2>Birthday</h2>
+        <input type="date">
+        <h2>Email</h2>
+        <input type="email">
+        <br>
+        <button onclick="alert( 'Sign up Successfully! Mr.Jhon. Welcome to our resort!') ">Sign up and log in</button>
+    </div>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <!--footer-->
+    <footer>
+        <p>Address: Pacific Underwater Resort Australia, 66 Allowah Street, Waratah West, NSW 3404</p>
+        <p>Email: <a href="mailto:pacific-underwater-resort@163.com">PacificUnderwaterResort@163.com</a></p>
+        <p>Phone Number:13458367</P>
+        <a href="reference.html" id='Reference' target="_blank">Reference</a>
+        <div>
+            <p>If you have any problems, please contact us.</p>
+            <p>© Copyright Pacific Underwater Resort. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+        <a href="Chating.html"><img src="images&files/Chat.png" alt='Chating'></a>
+        <br><a href="Suit.html" class="links"> Diving suit |</a>
+        <a href="Training.html" class="links"> Diving training |</a>
+        <a href="Dinner.html" class="links"> Dinner |</a>
+        <a href="Room.html" class="links"> Room |</a>
+        <a href="Transport.html " class="links"> Transport |</a>
+        <a href="Map.html" class="links"> Map of resort |</a>
+        <a href="History.html" class="links"> History</a>
+    </footer>
+</body>
+
+</html>

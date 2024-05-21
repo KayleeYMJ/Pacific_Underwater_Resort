@@ -1,0 +1,94 @@
+/* suit */
+
+article>img {
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    border: 0.2vw solid rgb(21, 197, 241);
+    border-radius: 2vw;
+    margin-left: -0.5vw;
+}
+
+article>h1>input {
+    width: 2vw;
+    height: 2vw;
+    margin-top: 1vw;
+}
+
+article {
+    width: 60%;
+    height: 15vw;
+    background-color: rgb(146, 199, 241, 0.7);
+    text-align: left;
+    margin-top: 3vw;
+    margin-left: 10vw;
+    margin-bottom: 13vw;
+    padding: 1.5vw;
+}
+
+article>p {
+    font-size: 1.5vw;
+    margin-left: 15.5vw;
+}
+
+article>h1 {
+    margin-left: 15.5vw;
+    margin-top: -1vw;
+    font-size: 1.7vw;
+}
+
+article>details {
+    background-color: rgb(146, 199, 241, 0.7);
+    width: 103.4%;
+    padding: 0.5vw;
+    margin-left: -1.5vw;
+    margin-top: 5.99vw;
+    font-size: 1.5vw;
+}
+
+#suitB {
+    margin-top: 4.23vw;
+}
+
+#suitA {
+    margin-top: 5.97vw;
+}
+
+
+/* subtitle */
+
+#subtitle {
+    font-size: 2.2vw;
+    margin-top: 2vw;
+}
+
+
+/* button */
+
+body>article>button {
+    width: 20%;
+    height: 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    float: right;
+    margin-right: 9vw;
+    margin-top: -6vw;
+}
+
+body>article>button:hover {
+    background-color: rgb(157, 97, 192);
+}
+
+
+/* nav */
+
+div>ul {
+    margin-top: 8.3vw;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 16vw;
+}

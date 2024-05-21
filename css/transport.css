@@ -1,0 +1,26 @@
+/* map */
+
+.map {
+    width: 60%;
+}
+
+.map>div {
+    overflow: hidden;
+    background: none;
+}
+
+
+/* transport */
+
+.transport {
+    margin-right: 25vw;
+    margin-top: -36.5vw;
+    float: right;
+}
+
+
+/* nav */
+
+div>ul {
+    margin-top: 8.3vw;
+}
